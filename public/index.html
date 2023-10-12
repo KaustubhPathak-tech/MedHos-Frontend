@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon-32x32.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="This is a website dedicated for Medical Services like Booking Doctor Appointments, Video Consultation, Order Medicine etc."
+    />
+    <link rel="apple-touch-icon" href="./favicon-32x32.png" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>
+      MedHos | Video Consultation with Doctors, Book Doctor Appointments, Book
+      Physio, Order Medicine, Diagnostic tests
+    </title>
+
+    <!-- recaptcha settings -->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LenGVUoAAAAAMXzvcC764WaBCZZNE5SNw766Q_G"></script>
+    <script>
+      function onClick(e) {
+        e.preventDefault();
+        grecaptcha.enterprise.ready(async () => {
+          const token = await grecaptcha.enterprise.execute(
+            "6LenGVUoAAAAAMXzvcC764WaBCZZNE5SNw766Q_G",
+            { action: "LOGIN" }
+          );
+          // IMPORTANT: The 'token' that results from execute is an encrypted response sent by
+          // reCAPTCHA Enterprise to the end user's browser.
+          // This token must be validated by creating an assessment.
+          // See https://cloud.google.com/recaptcha-enterprise/docs/create-assessment
+        });
+      }
+    </script>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

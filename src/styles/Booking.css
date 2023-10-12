@@ -1,0 +1,86 @@
+/* Add these styles to your global CSS or import a separate CSS file */
+
+h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* background-color: #fff; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .d-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .m-2 {
+    margin: 10px;
+  }
+  
+  .w-50 {
+    width: 50%;
+  }
+  
+  .btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-dark {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn-dark:hover {
+    background-color: #1d2124;
+  }
+  
+  /* Adjust DatePicker and TimePicker styles */
+  .ant-picker {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  /* Override Ant Design's default date format */
+  .ant-picker-input > input {
+    text-align: center;
+  }
+  
+  /* Ensure proper alignment for button container */
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Optional: Add spacing between buttons */
+  .button-container button {
+    margin-top: 10px;
+  }
+  

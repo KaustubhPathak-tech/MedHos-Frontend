@@ -1,0 +1,49 @@
+/* Add these styles to your global CSS or import a separate CSS file */
+
+.notification-page {
+    padding: 20px;
+  }
+  
+  .notification-page-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .notification-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .notification-actions h4 {
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #3498DB; /* Blue text color */
+  }
+  
+  .notification-card {
+    background-color: #F7F7F7; /* Light gray background color */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .notification-card:hover {
+    background-color: #EAEAEA; /* Slightly darker gray on hover */
+  }
+  
+  .notification-message {
+    font-size: 1rem;
+    color: #333; /* Dark text color */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .notification-card:first-child {
+    margin-top: 10px;
+  }
+  

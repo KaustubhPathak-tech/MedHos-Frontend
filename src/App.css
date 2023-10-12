@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  /* border-right:1px solid #626262; */
+  /* background-color: #ebeaea; */
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* width
+::-webkit-scrollbar {
+  max-width: 10px;
+  margin: 1px 2px;
+  border-left: 1px solid #ff0000;
+} */
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #ffffff;
+  padding: 1px;
+  width: 12px;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: rgb(93, 100, 121);
+  border-radius: 20px;
+  min-width: 15px;
+  box-shadow: 0 0 5px rgba(248, 32, 32, 0.2);
+  padding: 1px;
+  
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #5e769e;
+} */
+
+/* tooltip */
+/* Tooltip container */
+
+/* Style the scrollbar track */
+/* Track */
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 15px;
+	background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #4d4d4d;
+	border: 5px solid #ffffff;
+  border-radius: 5px;
+}

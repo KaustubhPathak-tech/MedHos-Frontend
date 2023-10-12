@@ -1,0 +1,40 @@
+#navBar{
+    background-color: white;
+}
+
+#items{
+    color: black;
+}
+
+.navBox{
+    /* border: 1px solid black; */
+    text-align: left;
+    width: 60vw;
+    }
+
+.navlinks{
+    color: rgb(27, 25, 25);
+    font-size: 16px;
+    font-weight: 550;
+    margin: 0px 20px;
+}
+
+.navlinks:hover{
+    text-decoration: none;
+}
+
+.toolbox{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    width: 40%;
+}
+.toollinks{
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+
+.toollinks:hover{
+    text-decoration: none;
+}

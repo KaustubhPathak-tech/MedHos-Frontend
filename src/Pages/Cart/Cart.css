@@ -1,0 +1,57 @@
+#qtyTracker{
+    display: inline-flex;
+    
+    padding-right: 40%;
+}
+
+#remove{
+    display: block;
+    padding:80px 50px 50px 50px;
+}
+
+#totalPrice{
+    /* display: flex;
+    justify-content: center; */
+
+    /* flex-grow: 1; */
+    padding-bottom: 30px;
+}
+#myFav{
+    width: 400px;
+}
+#myTable{
+    font-size: large;
+    text-align: left;
+}
+
+#myTable1{
+    font-size: large;
+    font-weight: 800;
+    font-style: oblique;
+    margin-left: 80%;
+    text-align: right;
+}
+#left{
+    border-top-left-radius: 50%;
+    font-size: large;
+}
+#left:hover{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#right{
+    border-top-right-radius: 50%;
+}
+#right:hover{
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#qty{
+    border-top-left-radius: 20px;
+}
+#qty:hover{
+    cursor: auto;
+    background-color: #05a8ff;
+}

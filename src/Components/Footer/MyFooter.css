@@ -1,0 +1,15 @@
+.footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin: 20px 0px 20px 0px;
+}
+.seperator{
+    min-height: 30vh;
+}
+#container{
+    padding-top: 15px;
+    border-top:1px solid black;
+    width: 98vw;
+}

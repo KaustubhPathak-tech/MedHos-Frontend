@@ -1,0 +1,108 @@
+#userloginPage {
+  width: 96%;
+  margin-top: 60px;
+}
+
+#chooseAction{
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(182, 181, 181);
+}
+
+.seperatorLogin{
+  min-height: 6vh;
+}
+
+#userlogin {
+  border: 1px solid rgb(225, 225, 225);
+  box-shadow: inset 0 2 3 0 rgb(225, 225, 225), 0 0 0 1px rgb(225, 225, 225);
+  border-radius: 10px;
+  margin: auto;
+  padding: 7% 5% 7% 5%;
+  width: 600px;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  vertical-align: middle;
+  padding-left: 15px;
+}
+
+#loginImg {
+  /* media_fire to be inserted */
+  width: 480px;
+  padding-left: 3%;
+}
+
+#googleloginbutton {
+  padding-left: 12%;
+}
+
+#seperatorOr {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#userlogininput {
+  min-width: 420px;
+}
+.userlogininput {
+  min-width: 450px;
+}
+
+#submitLogin{
+  width: 450px;
+}
+
+#signuphead {
+  text-align: left;
+}
+
+#userForgot {
+  /* border: 1px solid red; */
+  font-size: 13px;
+  padding-left: 57%;
+  text-decoration: none;
+  color: rgb(0, 255, 255);
+}
+
+#signuppromodiv {
+  text-align: left;
+  width: 100%;
+  line-height: 0%;
+}
+
+#signuppromo {
+  text-align: left;
+  font-size: 12px;
+}
+
+#optsendbtn{
+  margin-top: -2px;
+  padding: 10px;
+}
+
+#optverifybtn{
+  margin: 5px 0px 5px 18px;
+}
+
+#phone_code {
+  margin-top: 3px;
+  margin-right: 12px;
+  padding: 5px 20px 5px 5px;
+  width: 30%;
+  height: 50px;
+  display: inline-block;
+}
+
+
+#phoneverifybtn{
+  margin-top: 2px;
+  margin-left: 17px;
+  padding: 10px;
+}
+
+#captcha{
+  padding-left: 20%;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 5%;
+}

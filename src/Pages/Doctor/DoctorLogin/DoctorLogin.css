@@ -1,0 +1,142 @@
+#doctorloginPage{
+    width: 96%;
+    margin-top: 60px;
+}
+
+#doctorsignup{
+  margin: 2% 0% 0% 8%;
+  width: 90%;
+}
+
+#basicDetails{
+  margin-top: 5%;
+}
+
+#form2Doctor{
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+#form1Doctor{
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+#form3Doctor{
+  padding: 5%;
+  margin: 5% 0% 5% 0%;
+}
+#doctorlogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    /* max-width: fit-content */
+}
+
+/* #genderSelect{
+    margin-left: 35%;
+} */
+
+
+#headings{
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+#plane_content{
+    margin-left: 15%;
+    text-align: left;
+    align-items: flex-start;
+}
+
+
+
+/* day css */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body,
+html {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(242, 242, 242);
+  font-family: 'Roboto', sans-serif;
+  /* color: rgba(0, 0, 16, 0.8); */
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+.card {
+  padding: 0.8rem;
+  /* width: fit-content; */
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 16, 0.19), 0 0.3rem 0.3rem rgba(0, 0, 16, 0.23);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 16, 0.19), 0 0.3rem 0.3rem rgba(0, 0, 16, 0.23);
+}
+
+.rating-container {
+  
+  display: flex;
+    
+  display: -webkit-box;
+  display: -ms-flexbox;
+  
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; 
+  padding: 0.4rem 0.8rem;
+  /* width: fit-content; */
+}
+
+.rating-text p {
+    /* border: 1px solid red; */
+  /* color: rgba(0, 0, 16, 0.8); */
+  font-size: 1rem;
+  padding: 0.5rem 0rem 0rem 0rem;
+}
+
+.rating {
+  /* background-color: rgba(0, 0, 16, 0.8); */
+  padding: 0.3rem 0.4rem 0.1rem 2rem;
+  /* border: 1px solid red; */
+  /* border-radius: 2.2rem; */
+}
+
+
+
+
+#radioText{
+    /* color: rgb(0, 0, 0); */
+    font-size: 22px;
+    font-weight: 600;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 6px 8px;
+    border-radius: 50%;
+    border-color: rgb(149, 149, 149);
+    margin: 0px 3px;
+}
+
+#radioCheckedText{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 600;
+    border: 0px solid rgb(0, 0, 0);
+    padding: 6px 8px;
+    border-radius: 50%;
+    margin: 0px 3px;
+    background-color: rgb(252, 145, 5);
+}
+
+#radioCheckedText:hover{
+    cursor: pointer;
+}
+
+#radioText:hover{
+    cursor: pointer;
+}
+
+
+

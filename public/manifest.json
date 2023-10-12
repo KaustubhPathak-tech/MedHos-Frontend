@@ -1,0 +1,25 @@
+{
+  "short_name": "MedHos",
+  "name": "MedHos.com",
+  "icons": [
+    {
+      "src": "medhos.jpeg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "medhos.jpeg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "medhos.jpeg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
